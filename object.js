@@ -1,9 +1,9 @@
 // задание №1
 
 // Создайте пустой объект user.
-// Добавьте свойство name со значением John.
-// Добавьте свойство surname со значением Smith.
-// Измените значение свойства name на Pete.
+// Добавьте свойство name со значением Barsbek.
+// Добавьте свойство surname со значением King.
+// Измените значение свойства name на Greater.
 // Удалите свойство name из объекта.
 
 // задание №2
@@ -43,8 +43,8 @@
 
 // // до вызова функции
 // let menu = {
-//   width: 200,
-//   height: 300,
+//   width: 50,
+//   height: 800,
 //   title: "My menu"
 // };
 
@@ -52,20 +52,7 @@
 
 // // после вызова функции
 // menu = {
-//   width: 400,
-//   height: 600,
+//   width: 100,
+//   height: 1600,
 //   title: "My menu"
 // };
-
-function isEmpty(obj) {
-    return obj.noSuchProperty === undefined; 
-}
-
-const user = {}; // объявление - литерал объекта
-// const user = new Object(); // объявление - конструктор объекта
-console.log(isEmpty(user));
-user.name = "Jhon";
-user.surname = "Smith";
-user.name = "Pete";
-
-delete user.name
